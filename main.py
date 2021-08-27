@@ -23,3 +23,6 @@ cleaned_data=data.fillna("jain")
 
 
 print(cleaned_data.isnull().sum())
+
+import matplotlib as plt
+import seaborn as sns
